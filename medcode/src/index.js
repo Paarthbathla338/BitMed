@@ -3,8 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import * as serviceWorker from "./serviceWorker";
 import {initialState} from "./reducer.js"
+import {reducer} from "./reducer.js"
+import {StateProvider} from "./StateProvider";
+// eslint-disable-next-line
+import * as serviceWorker from "./serviceWorker";
 
 ReactDOM.render(
   <React.StrictMode>

@@ -2,6 +2,21 @@ export const initialState = {
     basket:[],
 }
 
-export const reducer={
-    //It is a Dispatcher of Data to the Data Layer
+export const reducer= (state,action) =>{
+    console.log(action);
+    switch(action.type){
+        case "ADD_TO_BASKET":
+            return{
+                ...state,
+                basket:[...state.basket,action.item]
+            };
+            default:
+                return state;
+    }
+
+
 }
+
+export default reducer;
+    //Reducer is a Dispatcher of Data to the Data Layer
+
