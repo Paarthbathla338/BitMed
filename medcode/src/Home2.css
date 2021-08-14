@@ -1,0 +1,22 @@
+home_main{
+    background-color:white;
+    border: 1px solid white;
+    margin-top:10px;
+    margin-left:10px;
+    margin-right:10px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+
+}
+
+.ap{
+    font-size: 25px;
+    margin-top:50px;
+    font-family: 'Pathway Gothic One', sans-serif;
+    margin-top:20px;
+    margin-bottom: 20px;
+
+    margin-left:10px;
+    font-weight:700;
+    text-align:center;
+}
