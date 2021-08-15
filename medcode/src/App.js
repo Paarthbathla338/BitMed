@@ -9,6 +9,7 @@ import Login from "./Login.js";
 import {useStateValue} from "./StateProvider"
 import {auth} from "./firebase.js"
 import Payment from "./Payment.js"
+import Mission from "./Mission.js"
 
 function App() {
   const [{basket},dispatch]=useStateValue();
@@ -53,6 +54,10 @@ function App() {
 
         <Route path="/payment">
         <Payment/>
+        </Route>
+
+        <Route path="/mission">
+          <Mission/>
         </Route>
 
 
