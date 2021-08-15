@@ -20,3 +20,18 @@ home_main{
     font-weight:700;
     text-align:center;
 }
+
+.footer{
+    bottom:0;
+    text-align:center;
+    border:1px solid black;
+    margin-top:30px;
+    font-family: 'Karla', sans-serif;
+
+
+}
+.github{
+    height:20px;
+    margin-top: 10px;
+
+}

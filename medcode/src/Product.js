@@ -21,6 +21,7 @@ function Product({id,title,image,price}) {
             },
         })
     }
+
     return (
         <div className="product">
             <img className="product_image" src={image} alt="" />
@@ -28,12 +29,13 @@ function Product({id,title,image,price}) {
             <div className="product_info">
                 <p>{title}</p>
                 <p className="product_price">
-                    <small>Rs.</small>
                     <strong>{price}</strong>
                     </p>
             </div>
 
             <button onClick={addToBasket}>Add to MediCart</button>
+            <div>
+</div>
         </div>
     )
 }

@@ -21,9 +21,18 @@
 
 .payment_title{
     flex:0.2;
-    text-align:center;
 
 }
+
+
 .payment_address{
     flex:0.8
 }
+.payment_tit,.btn{
+    text-align:center;
+    justify-content:center;
+    align-items:center;
+    
+}
+
+

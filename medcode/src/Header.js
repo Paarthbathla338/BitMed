@@ -24,13 +24,17 @@ function Header() {
 
 
 
+
+
     </Link>
+    <h2 className="bitmed"> BitMed </h2>
+
 
       <div className="header_search">
         <input className="header_searchInput" type="text"></input>
         <SearchIcon className="header_searchIcon"/>
       </div>
-
+ 
       <div className="header_nav">
         <Link to={!user && "/login"}>
         
@@ -41,15 +45,13 @@ function Header() {
         </div>
         </Link>
 
-        <div className="header_option">
-          <span className="header_optionlineOne">Returns </span>
-          <span className="header_optionlineTwo"> & Orders</span>
-        </div>
 
+        <Link to="/mission">
         <div className="header_option">
-          <span className="header_optionlineOne">Get </span>
-          <span className="header_optionlineTwo">Vaccinated</span>
+          <span className="header_optionlineOne">About </span>
+          <span className="header_optionlineTwo">BitMed</span>
         </div>
+        </Link>
       </div>
       <Link to="/checkout">
       <div className="header_optionBasket">
