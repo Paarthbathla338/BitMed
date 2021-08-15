@@ -4,6 +4,7 @@ import CurrencyFormat from "react-currency-format";
 import {useStateValue} from "./StateProvider"
 import "./Product"
 import {getBasketTotal} from "./reducer"
+import {useHistory} from "react-router-dom"
 
 
 function Subtotal() {
@@ -26,7 +27,7 @@ function Subtotal() {
               Subtotal ({basket?.length} items)
               : <strong>{value}</strong>
             </p>
-            <button className="btn">Proceed to Checkout</button>
+            <button className="btn" onClick={e=>history.push("/payment")}>Proceed to Checkout</button>
 
             </div>
 

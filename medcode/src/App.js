@@ -8,6 +8,7 @@ import Checkout from "./Checkout.js";
 import Login from "./Login.js";
 import {useStateValue} from "./StateProvider"
 import {auth} from "./firebase.js"
+import Payment from "./Payment.js"
 
 function App() {
   const [{basket},dispatch]=useStateValue();
@@ -48,6 +49,10 @@ function App() {
 
         <Route path="/login">
           <Login/>
+        </Route>
+
+        <Route path="/payment">
+        <Payment/>
         </Route>
 
 
