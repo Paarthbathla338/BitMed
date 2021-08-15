@@ -19,6 +19,11 @@ function App() {
         <Checkout/>
 
         </Route>
+
+        <Route to="/login">
+        <h1>You are at Login</h1>
+
+        </Route>
         
         <Route path="/">
           <Home />
