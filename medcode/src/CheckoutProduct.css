@@ -1,0 +1,64 @@
+.product{
+    display:flex;
+    flex-direction:column;
+    
+
+    justify-content:flex-end;
+    margin:10px;
+    padding:20px;
+    width:100%;
+    max-height: 300px;
+    max-width:300px;
+    border: 1px solid rgb(234,237,237);
+
+
+    border-radius: 12px;
+
+    background-color:white;
+    z-index: 1;
+
+
+
+}
+
+
+
+
+
+.checkoutProduct_image{
+    max-width: 300px;
+    margin-top:10px;
+    width:100%;
+    object-fit: contain;
+    margin-bottom: 15px;
+    border:1px solid
+    
+
+
+}
+
+.checkoutProduct_info{
+    margin-top: 5px;
+    display:flex;
+    flex-direction:column;
+    align-items:left;
+
+    
+}
+.btn{
+    width: 200px;
+    height:5vh;
+    background-color:aquamarine;
+    border: 4px solid;
+    border-radius: 8px;
+    margin-top:10px;
+    border-color: aquamarine;
+    color:#111;
+    font-weight:600;
+    cursor: pointer;
+    font-size:18px;
+    font-family: 'ZCOOL QingKe HuangYou';
+
+    
+
+}
