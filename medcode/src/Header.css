@@ -8,6 +8,11 @@
     z-index: 100;
     width:100%;
 }
+
+.header_option::after{
+  
+
+}
   
   .header_logo{
     width: 50px;

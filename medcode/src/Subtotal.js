@@ -8,9 +8,11 @@ import {getBasketTotal} from "./reducer"
 
 function Subtotal() {
   const [{basket},dispatch]=useStateValue()
+  const history= useHistory();
   
 
   return (
+
     <div className="subtotal">
       <CurrencyFormat
         renderText={(value) => ( 
@@ -34,7 +36,7 @@ function Subtotal() {
         value={getBasketTotal(basket)}
         displayType={"text"}
         thousandSeparator={true}
-        prefix={"Rs."}
+        prefix={"$"}
     />
 
     </div>

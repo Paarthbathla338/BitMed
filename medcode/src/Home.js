@@ -9,6 +9,8 @@ function Home() {
                 <a href="https://www.cowin.gov.in/" target="_blank" rel="noreferrer"><img className="home_image" src="https://images.indianexpress.com/2021/02/vaccine-8.jpg" alt="" /></a>
 
             </div>
+
+
             
             <div className="home_main">
             <p className="ap py-5"><h2>MEDICINES</h2></p>
